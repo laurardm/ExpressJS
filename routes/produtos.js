@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
     { id: 3, nome: 'miranda hobbes', descricao: 'ela é meio grossa, mas é um amor', imagem: 'https://preview.redd.it/lduu00kao5pe1.jpeg?auto=webp&s=a37c41aab3ac3ecc59317771d55728da89309c5c' },
     { id: 4, nome: 'samantha jones', descricao: 'ela é feliz e livre', imagem: 'https://forbes.com.br/wp-content/uploads/2023/06/Life_Samantha-Jones-sex-and-the-city-2.jpg' },
     { id: 5, nome: 'mr. big', descricao: 'chamar ele de desgraçado é pouco', imagem: 'https://assets.vogue.com/photos/60f6ceca9d2ff0bb3535b048/master/pass/MCDSEAN_EC175.jpg' },
-    { id: 6, nome: 'aidan', descricao: 'carrie você me paga!', imagem: 'https://preview.redd.it/xjps01nbccwc1.jpeg?width=1080&crop=smart&auto=webp&s=713bc0d841663a4a429d3ff51d6a766ca3c905cc' },
+    { id: 6, nome: 'aidan shaw', descricao: 'carrie você me paga!', imagem: 'https://preview.redd.it/xjps01nbccwc1.jpeg?width=1080&crop=smart&auto=webp&s=713bc0d841663a4a429d3ff51d6a766ca3c905cc' },
   ];
 
   res.render('produtos', {
