@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{titulo}}</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #0d6efd;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Menu de navegação -->
+  <nav>
+    <a href="/">Home</a>
+    <a href="/lista">Lista</a>
+    <a href="/users">Usuários</a>
+    <a href="/clientes">Clientes</a>
+    <a href="/sobre">Sobre</a>
+    <a href="/contato">Contato</a>
+  </nav>
+
+  <!-- Conteúdo dinâmico das views -->
+  <main>
+    {{{body}}} <!-- Aqui o conteúdo de cada view será renderizado -->
+  </main>
+</body>
+
+</html>
